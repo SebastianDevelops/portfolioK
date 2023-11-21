@@ -59,8 +59,8 @@ const Projects = () => {
       {/* PROJECTS */}
       <div className="flex justify-center">
         <motion.div
-          className="sm:grid sm:grid-cols-3"
-          initial="hidden"
+          className="xs:grid xs:grid-cols-3"
+          initial="visible"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.5 }}
